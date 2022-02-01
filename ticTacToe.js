@@ -1,12 +1,18 @@
-let resultField = document.getElementById('cl1');
+const array = [];
 
-let cells = Array.from(document.getElementsByClassName('cell'));
+function change(){
+   document.getElementById('cl1').innerText = 'X';
+   function callback(){
+       array.push('cl1')
+   }
+}  
 
-cells.map(cell =>{
-    cell.addEventListener('click', (prop)=>{
-      switch(prop.target.innerText){
-          case 'o':
-          resultField.innerText= 'x';
-      }
-}
+function buttonClick(b){
+    let  clicked ='';
+    let count = '';
+    if(b['text'=="  " & clicked==true]){
+        b["text"] = "X";
+        clicked= false;
+        count+=1;
+    }    
 }
