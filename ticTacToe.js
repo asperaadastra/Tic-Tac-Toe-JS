@@ -6,13 +6,3 @@ function change(){
        array.push('cl1')
    }
 }  
-
-function buttonClick(b){
-    let  clicked ='';
-    let count = '';
-    if(b['text'=="  " & clicked==true]){
-        b["text"] = "X";
-        clicked= false;
-        count+=1;
-    }    
-}
